@@ -1,0 +1,29 @@
+header {
+  background-image: url("./images/dogs-banner.jpg");
+  text-align: center;
+  height: 40vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+}
+
+.drop {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#dog-img {
+  width: 500px;
+  height: 400px;
+  display: block;
+  position: relative;
+  overflow: hidden;
+}
+
+#dog-img img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
